@@ -61,7 +61,7 @@ alt="de shop pagina van de website">
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 - Er zitten nog best wat errors in de website zijn HTML om semantisch correct te zijn.
-  -Er kan horizontaal gescrolld worden tussen shop categorieën op small screen. Dit dient aangepast te worden.
+- -Er kan horizontaal gescrolld worden tussen shop categorieën op small screen. Dit dient aangepast te worden.
 - Niet alle img elementen hebben een alt attribuut.
 - Er is een video op de home pagina die nu nog aan autoplay doet, dit dient aangepast te worden. Ook is er geen ondertiteling of transcript voor de video aanwezig.
 - Er is nog geen skip link via tab om direct bij de main content te komen.
