@@ -81,7 +81,7 @@ Tijdens het maken van mijn schermschets veranderde Oner Active de volledige layo
 
 ### de hele pagina:
 
-  <img src="readme-images/fed-schermen-html-toepassen" width="375px" alt="breakdown schets van de hele home pagina">
+  <img src="readme-images/fed-schermen-html-toepassen.png" width="375px" alt="breakdown schets van de hele home pagina">
 
 ### dynamisch deel (bijv menu):
 
