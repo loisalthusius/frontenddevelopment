@@ -74,7 +74,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ## Breakdownschets (week 1)
 
-Tijdens het maken van mijn schermschets veranderde Oner Active de volledige layout van hun homepagina. Daarom heb ik een bijgewerkte schets gemaakt op basis van de nieuwe structuur en afbeeldingen. De vooraf bepaalde elementen kwamen erg overeen, maar vooral de afbeeldingen diende aangepast te worden en een paar sections werden vervangen.
+Tijdens het maken van mijn schermschets veranderde Oner Active de volledige layout van hun homepagina. Daarom zal ik een bijgewerkte schets gemaakt op basis van de nieuwe structuur en afbeeldingen. De vooraf bepaalde elementen komen erg overeen, maar vooral de afbeeldingen dienen aangepast te worden en een paar sections zullen worden vervangen.
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
