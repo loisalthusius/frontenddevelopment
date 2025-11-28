@@ -74,12 +74,14 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ## Breakdownschets (week 1)
 
+Tijdens het maken van mijn schermschets veranderde Oner Active de volledige layout van hun homepagina. Daarom heb ik een bijgewerkte schets gemaakt op basis van de nieuwe structuur en afbeeldingen. De vooraf bepaalde elementen kwamen erg overeen, maar vooral de afbeeldingen diende aangepast te worden en een paar sections werden vervangen.
+
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/fed-schermen-html-toepassen" width="375px" alt="breakdown schets van de hele home pagina">
 
 ### dynamisch deel (bijv menu):
 
@@ -97,8 +99,6 @@ Lijst met je bevindingen die in de test naar voren kwamen:
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
 ### Stand van zaken
-
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Agenda voor meeting
 
