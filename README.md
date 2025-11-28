@@ -104,11 +104,29 @@ Tijdens het maken van mijn schermschets veranderde Oner Active de volledige layo
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+|Eva vragen:
+
+- hoe pas ik flexbox (of een grid) toe op een description list zonder divs te gebruiken?
+- is het legaal om een font van onlinewebfonts.com te downloaden en toe te voegen met @fontface?
+- kan ik beter een grid of flexbox gebruiken voor de layout van mijn sections?
+- wat is de beste tag voor een label?
+
+Emilie vragen:
+
+- hoe krijg ik de puntjes bij mijn lijst weg? (hoe het normaal gedaan wordt werkt niet)
+- Ik heb een div is dit div waardig?
+- Hoe zet ik de svg er goed in?
+
+  Roos vragen:
+
+- hoe krijg ik een gradiant op mijn foto?
+- hoe spreek ik meerdere types aan zonder dit 2x het zelfde erin te moeten zetten met nth-of-type()
+- hoe krijg ik die pijltjes gestyld in de details/summary
+
+Loïs vragen:
+
+- Als er een timer midden in de tekst staat, moet dit dan toegevoegd worden in html en zo ja hoe voeg je dit toe?
+- Kan je ook meerdere sections in een section hebben of dien je dan articles te gebruiken?
 
 ### Verslag van meeting
 
