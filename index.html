@@ -1,22 +1,165 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2526</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Loïs Althusius" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link href="styles/style.css" rel="stylesheet">
+    <title>Oner active</title>
 
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-</head>
+    <link href="css/gezamenlijk.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
 
-<body>
-	<h1>Howdy FED2526</h1>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
 
-	<script defer src="scripts/script.js"></script>
-</body>
-	
+  <body>
+    <header>
+      <aside>
+        <button aria-label="vorige aankondiging">vorige</button>
+        <p>black friday sale ends in ...</p>
+        <p>up to 50% off selected lines ends soon</p>
+        <p>free standard shipping over €99</p>
+        <img src="images/loyalty-club-star.svg" alt="een grijze ster" />
+        <p>join our oneryou loyalty club</p>
+        <button aria-label="volgende aankondiging">volgende</button>
+      </aside>
+      <nav>
+        <button aria-label="menu openen">
+          <img src="images/menu-item.png" alt="menu icoon" />
+        </button>
+        <a href="#" aria-label="account en inloggen">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path>
+              d="M85.355 64.645c-5.445-5.446-11.927-9.478-19-11.918 7.575-5.217
+              12.551-13.948 12.551-23.82C78.906 12.966 65.94 0 50 0 34.061 0
+              21.094 12.967 21.094 28.906c0 9.873 4.976 18.604 12.55
+              23.821-7.071 2.44-13.553 6.472-19 11.918C5.202 74.088 0 86.645 0
+              100h7.813c0-23.262 18.925-42.188 42.187-42.188 23.262 0 42.188
+              18.926 42.188 42.188H100c0-13.355-5.201-25.912-14.645-35.355zM50
+              50c-11.631 0-21.094-9.462-21.094-21.094C28.906 17.275 38.37 7.813
+              50 7.813c11.631 0 21.094 9.462 21.094 21.093C71.094 40.538 61.63
+              50 50 50z"
+            </path>
+          </svg>
+        </a>
+        <a href="index.html" aria-label="ga naar homepagina">
+          <img src="images/brand-logo.svg" alt="merk logo" />
+        </a>
+        <button aria-label="wishlist openen">
+          <svg viewBox="0 0 189.1 165.3">
+            <path
+              d="M94.5,18.2C84.7,7.1,70.2,0,54.1,0C24.2,0,0,24.2,0,54.1c0,10.5,3,20.3,8.2,28.6c0.2,0.3,0.4,0.4,0.4,0.4c1,1.5,2,3,3.2,4.5c18.9,25.9,48,51.8,83,77.8c35-25.9,64-51.9,83-77.8c1.1-1.4,2.2-2.9,3.2-4.5c0.2-0.3,0.4-0.4,0.4-0.4c4.7-8.3,7.7-18.1,7.7-28.6c0-29.9-24.2-54.1-54.1-54.1C119,0,104.4,7.1,94.5,18.2z"
+            ></path>
+          </svg>
+        </button>
+        <button aria-label="zoekbalk openen">
+          <svg
+            class="oa-hdr19-icon oa-hdr19-icon--search"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+            viewBox="0 0 100 100"
+            fill="currentColor"
+          >
+            <path
+              d="M98.776 92.898l-24.041-24.04a41.994 41.994 0 0 0 9.55-26.715C84.286 18.878 65.409 0 42.144 0 18.857 0 0 18.878 0 42.143s18.857 42.143 42.143 42.143a41.92 41.92 0 0 0 26.694-9.53l24.04 24.02a4.163 4.163 0 0 0 5.899 0 4.139 4.139 0 0 0 0-5.878zm-56.633-17c-18.633 0-33.776-15.143-33.776-33.755 0-18.612 15.143-33.776 33.776-33.776 18.612 0 33.775 15.164 33.775 33.776 0 18.612-15.163 33.755-33.775 33.755z"
+            ></path>
+          </svg>
+        </button>
+        <button aria-label="winkelmand openen">
+          <svg
+            class="oa-hdr19-icon oa-hdr19-icon--cart"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+            viewBox="0 0 160 201.7"
+            fill="currentColor"
+          >
+            <path
+              d="M159.9,186.5l-11.4-120c-0.6-7.7-7.5-14-15.3-14h-19.3v-20C113.9,14.6,98.4,0,80.4,0h-0.8C61.7,0,46.1,14.6,46.1,32.5v20H26.7c-7.7,0-14.5,6.3-15.3,14L0,186.5c-0.3,3.9,1,7.8,3.7,10.8c2.7,2.9,6.2,4.4,10.2,4.4H146c4.1,0,7.7-1.6,10.3-4.5C159.1,194.1,160.4,190.4,159.9,186.5z M58.9,52.5V32.4c0-10.9,9.9-19.8,20.8-19.8h0.8c10.9,0,20.8,8.9,20.8,19.8v20.1H58.9zM146.8,187.6c0,0.4-0.1,0.6-0.2,0.7l-0.1,0.1c-0.1,0.1-0.2,0.2-0.7,0.2h-132c-0.2,0-0.4-0.1-0.8-0.3c-0.2-0.2-0.2-0.4-0.1-0.7l11.4-120c0.1-0.9,1.3-2,2.2-2h106.7c1.1,0,2.1,1,2.2,2.1L146.8,187.6z"
+            ></path>
+          </svg>
+        </button>
+      </nav>
+      <section>
+        <img
+          src="images/upper-banner.jpg"
+          alt="afbeelding bovenaan de homepagina"
+        />
+
+        <h1>The ultimate gift guide</h1>
+        <p>however they move, we've just got the thing</p>
+      </section>
+    </header>
+
+    <main></main>
+
+    <footer>
+      <section class="footer-bovenste-links">
+        <ul>
+          <li>
+            <img src="images/contact.svg" alt="contact icoon" />
+            <a href="#">contact us</a>
+          </li>
+          <li>
+            <img src="images/shipping.svg" alt="return logo" />
+            <a href="#">free standard shipping*</a>
+          </li>
+          <li>
+            <img src="images/returns.svg" alt="return logo" />
+            <a href="#">easy returns</a>
+          </li>
+          <li>
+            <img src="images/oneryou-loyaltyclub.svg" alt="oneryou tekst" />
+            <a href="#">oneryou loyalty club</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-onderste-links">
+        <nav aria-label="footer navigatie">
+          <section>
+            <h2>Oner Active</h2>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Transparency</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Report website fraud</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Accessibility Statement</a></li>
+              <li><a href="#">Track your order</a></li>
+              <li><a href="#">Size guide</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Shipping & delivery</a></li>
+              <li><a href="#">returns & refunds</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Terms & conditions</a></li>
+              <li><a href="#">Whistleblower system</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Top Categories</h2>
+            <ul>
+              <li><a href="#">Black Friday</a></li>
+              <li><a href="#">Outlet</a></li>
+              <li><a href="#">Bottoms & leggings</a></li>
+              <li><a href="#">Sports bras</a></li>
+              <li><a href="#">Sweatshirts & hoodies</a></li>
+              <li><a href="#">T-shirts & tops</a></li>
+            </ul>
+          </section>
+        </nav>
+      </section>
+    </footer>
+    <script defer src="scripts/script.js"></script>
+  </body>
 </html>
