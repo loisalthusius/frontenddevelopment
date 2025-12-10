@@ -1,0 +1,79 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+header > aside > img {
+  width: 8%;
+  height: 2vh;
+}
+
+nav img{
+max-width: 100%; 
+  height: 5vh;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button svg, a svg {
+  display: block;
+  width: 2em;
+  height: 2em;
+  stroke:black;
+  stroke-width: 1rem;
+  fill: transparent;
+}
+
+nav > button:nth-of-type(2) svg {
+	display: block;
+  width: 2em;
+  height: 2em;
+  stroke:black;
+  stroke-width: 1rem;
+  fill: transparent;
+}
+
+header {
+position:fixed;
+}
+
+header > nav {
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  padding: 0;
+  z-index: 10;
+}
