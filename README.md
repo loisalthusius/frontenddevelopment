@@ -132,10 +132,9 @@ Loïs vragen:
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De timer dient toegevoegd te worden met javascript
+- het is beter om gebruik te maken van articles
+- classes dienen vervangen te worden met :nth-of-type in css
 
 </details>
 
@@ -146,26 +145,49 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig:
+<img src="readme-images/gelukt.png" width=375px alt="code die wel lukte">
+Het lukte mij om de algemene styling van de svg's te bepalen, dus vanuit hier diende ik enkel nog een specifieke button svg per stuk aan te kunnen spreken voor individuele styling.
+<img src="readme-images/lastig.png" width="375px" alt="code die ik lastig vond">
+ik vond het lastig om een specifieke button zijn svg te bewerken. Ook vond ik het lastig om de nav over de header te positioneren.
+Hier is een screenshot van de code die we uiteindelijk gebruikt hebben.
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Eva vragen:
+
+- wat is de beste plek voor mijn custom properties?
+- heb ik de <table> correct gemaakt?
+- hoe hou ik een grid item vierkant op hele smalle schermen?
+
+Emilie vragen:
+
+- hoe krijg ik een witruimte weg?
+- Ik krijg de achtergrond kleur van de nav icoon niet weg
+- Hoe krijg ik meer ruimte tussen mijn middelste svg en mijn andere nav elementen?
+
+  Roos vragen:
+
+- waarom tabt ie linkjes in het gesloten menu?
+- hoezo zit er witruimte en hoe krijg ik die weg?
+- valt het hamburgermenu en automatische carousel onder de 5 surface plane elementen?
+
+Loïs vragen:
+
+- Hoe krijg ik mijn nav elementen over mijn header img? Is dit met grid of position op te lossen?
+- hoe bewerk ik verschillende svg's in de nav apart van elkaar? (nth-of-type lukt even niet)
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Als je een in een gesloten menu tab wil voorkomen, dien je header nav:focus-within; {translate 0%;} toe te passen. Vervolgens geef je display:none; aan, met transition-behaviour:allow-discrete; display:block; en tot slot @starting-style {translate:-100%} om te beginnen met een gesloten menu.
+- ruimte creëren tussen het middelste nav element en andere elementen is met margin-inline op te lossen.
+- het hamburgermenu valt niet onder de extra surface plane elementen
+- nav elementen over de header krijgen los je op met position fixed
+- svg's van buttons apart stylen in de nav los je op met nav > button:nth-of-type() svg
 
 </details>
 
@@ -191,13 +213,12 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
+Mijn eigen vragen:
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+- mag ik px gebruiken voor het verbergen van een h2?
+- dien ik mijn breakdown schetsen opnieuw te maken van de pagina's? Gezien de website is geupdate
+- hoe zorg ik er voor dat mijn afbeelding weer de volledige breedte van de pagina is?
+- hoe maak ik de iconen in de grijze footer blokken groter?
 
 ### Verslag van meeting
 
@@ -241,7 +262,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
+1. [bron 1, waarom ik een nav in mijn footer heb gezet](https://html.spec.whatwg.org/multipage/sections.html#the-nav-element)
 2. bron 2
 3. ...
 
